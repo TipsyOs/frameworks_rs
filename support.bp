@@ -186,7 +186,7 @@ cc_library_shared {
     ],
 
      product_variables: {
-        carbon: {
+        tipsy: {
             target_uses_qml: {
                 required: ["libQML-1.4.0"],
             },

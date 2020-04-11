@@ -125,7 +125,7 @@ cc_library_shared {
             // is not available in PDK.
             enabled: false,
         },
-        carbon: {
+        tipsy: {
             target_uses_qml: {
                 cflags: ["-DUSE_QML", "-fopenmp"],
 		shared_libs: ["libQML-1.4.0"],
